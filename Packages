@@ -1,0 +1,35 @@
+Package: dingdong-listener
+Version: 2.2.2-50
+Architecture: aarch64_cortex-a53
+Maintainer: DingDong Listener
+Section: net
+Priority: optional
+Depends: node (>= v14.21.3-1), luci-base, openvpn-openssl, openssl-util, tailscale, iptables, iptables-mod-tproxy, kmod-ipt-tproxy, ip-full, jsonfilter, uclient-fetch
+Conflicts: sing-box-router
+Replaces: sing-box-router
+Provides: sing-box-router
+Description: All-in-one DingDong listener, OpenVPN OTP manager, Tailscale guard,
+ sing-box split routing, public rule sets and LuCI management page. Uses the
+ separately installed Node.js runtime package.
+Installed-Size: 74936
+Filename: dingdong-listener_2.2.2-50_aarch64_cortex-a53.ipk
+Size: 25200361
+SHA256sum: 1b2c6c02eee6934ee5219827844d47c752d163308e12ba270eb8e5c4f6e286da
+MD5Sum: 4d26e14092a55fcc2cbb21b4c685bad9
+
+Package: node
+Version: v14.21.3-1
+Architecture: aarch64_cortex-a53
+Maintainer: DingDong Listener
+Section: lang
+Priority: optional
+Conflicts: dingdong-node-runtime
+Replaces: dingdong-node-runtime
+Provides: dingdong-node-runtime
+Description: Node.js JavaScript runtime for OpenWrt ARM64. This package includes
+ the compatible runtime libraries required on supported GL.iNet devices.
+Installed-Size: 30228
+Filename: node_v14.21.3-1_aarch64_cortex-a53.ipk
+Size: 11035650
+SHA256sum: dc00d22a7d59dc7a35312cb897847498d5f9ba29c36b09bcc2d1b7092b4be92f
+MD5Sum: 64af6726b01128423873fa81360b86b7
