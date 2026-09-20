@@ -11,11 +11,11 @@ Provides: sing-box-router
 Description: All-in-one DingDong listener, OpenVPN OTP manager, Tailscale guard,
  sing-box split routing, public rule sets and LuCI management page. Uses the
  separately installed Node.js runtime package.
-Installed-Size: 74952
+Installed-Size: 74960
 Filename: dingdong-listener_2.2.2-60_aarch64_cortex-a53.ipk
-Size: 25204623
-SHA256sum: d34411240977dff3f04b39c4e2eccc01ab722ce654fd67d8460f0d49733b3369
-MD5Sum: 9bf314bb96e4a8e04df5a1f2e8796819
+Size: 25211372
+SHA256sum: d2961394eb88cbefd2e6925e895ffb6e9439b04b5479fa1f68fbe06c9eea44e2
+MD5Sum: 0e383c71767c1b520c0cfd549cb052b4
 
 Package: node
 Version: v14.21.3-1
