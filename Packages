@@ -35,15 +35,15 @@ SHA256sum: dc00d22a7d59dc7a35312cb897847498d5f9ba29c36b09bcc2d1b7092b4be92f
 MD5Sum: 64af6726b01128423873fa81360b86b7
 
 Package: wan-device-policy
-Version: 1.0.0-1
-Architecture: all
+Version: 1.0.0-2
+Architecture: aarch64_cortex-a53
 Maintainer: DingDong Listener
 Section: net
 Priority: optional
 Depends: luci-base, iptables, ip-full, jsonfilter
 Description: Choose LAN devices that should use the WAN instead of sing-box or the company VPN.
 Installed-Size: 40
-Filename: wan-device-policy_1.0.0-1_all.ipk
-Size: 5706
-SHA256sum: ba53aa721661ed746d9d1651c57e96a68e05fdeeca183933844e0a1247a60ea7
-MD5Sum: 072a8e4c76bcffbf2fbb0628eec92b66
+Filename: wan-device-policy_1.0.0-2_aarch64_cortex-a53.ipk
+Size: 5725
+SHA256sum: 3054ce97896693f1776e2b1f169704d0aa8cf9a5f71742d8f5c29cf47d92908c
+MD5Sum: 3f5b9a8d6e23a904bbc3a979d60b757e
