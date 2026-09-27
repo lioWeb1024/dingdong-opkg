@@ -1,5 +1,5 @@
 Package: device-wan
-Version: 1.0.0-10
+Version: 1.0.0-11
 Architecture: aarch64_cortex-a53
 Maintainer: DingDong Listener
 Section: net
@@ -9,10 +9,10 @@ Conflicts: dingdong-wan
 Replaces: dingdong-wan
 Description: 选择哪些局域网设备直接走 WAN。勾选的设备不进入 sing-box，也不进公司 VPN。
 Installed-Size: 48
-Filename: device-wan_1.0.0-10_aarch64_cortex-a53.ipk
-Size: 6558
-SHA256sum: 945adde91fa38e6c8b665d40f14f02bab3b1be2a29918aeff8eeb018bd04b159
-MD5Sum: 37b4667a963f808d70a5f13ec792f3f2
+Filename: device-wan_1.0.0-11_aarch64_cortex-a53.ipk
+Size: 6768
+SHA256sum: 19a636a25ba85af2178b07a9713717bc5ac1914d13bff3eb1809630b9cabe390
+MD5Sum: 70b44d5e6119488617421d4c3f20bbad
 
 Package: dingdong-listener
 Version: 2.2.2-72
