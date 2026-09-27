@@ -17,6 +17,20 @@ Size: 23659483
 SHA256sum: b6e84b3dde5c4f4a2a4c63fa98bb6d3665cac9dd11d08fd1ee0b919675f5ed4f
 MD5Sum: cda251cd2d46b2448092bf1ab45a71f2
 
+Package: dingdong-wan
+Version: 1.0.0-3
+Architecture: aarch64_cortex-a53
+Maintainer: DingDong Listener
+Section: net
+Priority: optional
+Depends: luci-base, iptables, ip-full, jsonfilter
+Description: 设备走 WAN。勾选 Apple TV 等局域网设备后，这些设备不进入 sing-box，也不进公司 VPN。
+Installed-Size: 40
+Filename: dingdong-wan_1.0.0-3_aarch64_cortex-a53.ipk
+Size: 5813
+SHA256sum: 7091b5454df89e120e53766d62b5f08effd90d92210c68b601a992ba83456263
+MD5Sum: bd1c6c2516ebb5c491e4126bcc3e6f87
+
 Package: node
 Version: v14.21.3-1
 Architecture: aarch64_cortex-a53
@@ -33,17 +47,3 @@ Filename: node_v14.21.3-1_aarch64_cortex-a53.ipk
 Size: 11035650
 SHA256sum: dc00d22a7d59dc7a35312cb897847498d5f9ba29c36b09bcc2d1b7092b4be92f
 MD5Sum: 64af6726b01128423873fa81360b86b7
-
-Package: wan-device-policy
-Version: 1.0.0-2
-Architecture: aarch64_cortex-a53
-Maintainer: DingDong Listener
-Section: net
-Priority: optional
-Depends: luci-base, iptables, ip-full, jsonfilter
-Description: Choose LAN devices that should use the WAN instead of sing-box or the company VPN.
-Installed-Size: 40
-Filename: wan-device-policy_1.0.0-2_aarch64_cortex-a53.ipk
-Size: 5725
-SHA256sum: 3054ce97896693f1776e2b1f169704d0aa8cf9a5f71742d8f5c29cf47d92908c
-MD5Sum: 3f5b9a8d6e23a904bbc3a979d60b757e
