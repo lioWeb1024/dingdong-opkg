@@ -33,3 +33,17 @@ Filename: node_v14.21.3-1_aarch64_cortex-a53.ipk
 Size: 11035650
 SHA256sum: dc00d22a7d59dc7a35312cb897847498d5f9ba29c36b09bcc2d1b7092b4be92f
 MD5Sum: 64af6726b01128423873fa81360b86b7
+
+Package: wan-device-policy
+Version: 1.0.0-1
+Architecture: all
+Maintainer: DingDong Listener
+Section: net
+Priority: optional
+Depends: luci-base, iptables, ip-full, jsonfilter
+Description: Choose LAN devices that should use the WAN instead of sing-box or the company VPN.
+Installed-Size: 40
+Filename: wan-device-policy_1.0.0-1_all.ipk
+Size: 5706
+SHA256sum: ba53aa721661ed746d9d1651c57e96a68e05fdeeca183933844e0a1247a60ea7
+MD5Sum: 072a8e4c76bcffbf2fbb0628eec92b66
