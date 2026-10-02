@@ -15,7 +15,7 @@ SHA256sum: 97fc967ad533cfada9362925e91a846e1143440729fea663e6acb8c6006b565c
 MD5Sum: 82ca70527e0d3d62fbfbba8bfe1a8343
 
 Package: dingdong-listener
-Version: 2.2.2-82
+Version: 2.2.2-83
 Architecture: aarch64_cortex-a53
 Maintainer: DingDong Listener
 Section: net
@@ -28,10 +28,10 @@ Description: All-in-one DingDong listener, OpenVPN OTP manager, Tailscale guard,
  sing-box split routing, public rule sets and LuCI management page. Uses the
  separately installed Node.js runtime package.
 Installed-Size: 66240
-Filename: dingdong-listener_2.2.2-82_aarch64_cortex-a53.ipk
-Size: 23698086
-SHA256sum: 81bb0362af8fbeb8039b1b1f1c489be35837c83e6972627db8b4f64e030b32d3
-MD5Sum: cec1eeb8753f3464edc248dd5f1b7e56
+Filename: dingdong-listener_2.2.2-83_aarch64_cortex-a53.ipk
+Size: 23698358
+SHA256sum: 347cda58cda7210fbd53367277351250935fe60132c220e0967c1e7ac3104ec4
+MD5Sum: 4bddaf3c6c0d5346f7472b4d2824f041
 
 Package: node
 Version: v14.21.3-1
