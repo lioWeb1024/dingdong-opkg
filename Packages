@@ -1,5 +1,5 @@
 Package: device-wan
-Version: 1.0.0-14
+Version: 1.0.0-15
 Architecture: aarch64_cortex-a53
 Maintainer: DingDong Listener
 Section: net
@@ -7,15 +7,15 @@ Priority: optional
 Depends: luci-base, iptables, ip-full, jsonfilter
 Conflicts: dingdong-wan
 Replaces: dingdong-wan
-Description: 选择哪些局域网设备直接走 WAN。勾选的设备不进公司 VPN。
+Description: 选择哪些局域网设备直接走 WAN。勾选的设备不进入 sing-box，也不进公司 VPN。
 Installed-Size: 48
-Filename: device-wan_1.0.0-14_aarch64_cortex-a53.ipk
-Size: 6781
-SHA256sum: 97fc967ad533cfada9362925e91a846e1143440729fea663e6acb8c6006b565c
-MD5Sum: 82ca70527e0d3d62fbfbba8bfe1a8343
+Filename: device-wan_1.0.0-15_aarch64_cortex-a53.ipk
+Size: 6920
+SHA256sum: 8850904727525fdcabe8732f59b3c2e2abb60975bb827067f7537dfa0b171653
+MD5Sum: 896eda8b1b4d8cbabef04356ffee4a51
 
 Package: dingdong-listener
-Version: 2.2.2-89
+Version: 2.2.2-90
 Architecture: aarch64_cortex-a53
 Maintainer: DingDong Listener
 Section: net
@@ -27,11 +27,11 @@ Provides: sing-box-router
 Description: All-in-one DingDong listener, OpenVPN OTP manager, Tailscale guard,
  sing-box split routing, public rule sets and LuCI management page. Uses the
  separately installed Node.js runtime package.
-Installed-Size: 66236
-Filename: dingdong-listener_2.2.2-89_aarch64_cortex-a53.ipk
-Size: 23691568
-SHA256sum: 7f59ee61b2ff23cdbb0af5b1226a1745c1b52683bfff56b50d0d33026d95c571
-MD5Sum: 866f095232f9e1e11c501187e348eacb
+Installed-Size: 66244
+Filename: dingdong-listener_2.2.2-90_aarch64_cortex-a53.ipk
+Size: 23699742
+SHA256sum: 2edcb8b4a5d334f176d1d290eea93b0b4dd26b7b252d420df2f1d879b136a1f6
+MD5Sum: a209e9dff75b3deba03422e71e14ea1f
 
 Package: node
 Version: v14.21.3-1
