@@ -1,5 +1,5 @@
 Package: device-wan
-Version: 1.0.0-13
+Version: 1.0.0-14
 Architecture: aarch64_cortex-a53
 Maintainer: DingDong Listener
 Section: net
@@ -7,31 +7,31 @@ Priority: optional
 Depends: luci-base, iptables, ip-full, jsonfilter
 Conflicts: dingdong-wan
 Replaces: dingdong-wan
-Description: 选择哪些局域网设备直接走 WAN。勾选的设备不进入 sing-box，也不进公司 VPN。
+Description: 选择哪些局域网设备直接走 WAN。勾选的设备不进公司 VPN。
 Installed-Size: 48
-Filename: device-wan_1.0.0-13_aarch64_cortex-a53.ipk
-Size: 6807
-SHA256sum: b76e08a4a4a53bb29e897ecd781bf5a3f865722ea9604c36d0ba710db8879671
-MD5Sum: 114dff8b510c1cefb59b20fcf396dd19
+Filename: device-wan_1.0.0-14_aarch64_cortex-a53.ipk
+Size: 6781
+SHA256sum: 97fc967ad533cfada9362925e91a846e1143440729fea663e6acb8c6006b565c
+MD5Sum: 82ca70527e0d3d62fbfbba8bfe1a8343
 
 Package: dingdong-listener
-Version: 2.2.2-73
+Version: 2.2.2-74
 Architecture: aarch64_cortex-a53
 Maintainer: DingDong Listener
 Section: net
 Priority: optional
-Depends: node (>= v14.21.3-1), luci-base, openvpn-openssl, openssl-util, tailscale, iptables, iptables-mod-tproxy, kmod-ipt-tproxy, ip-full, jsonfilter, uclient-fetch
+Depends: node (>= v14.21.3-1), luci-base, openvpn-openssl, openssl-util, tailscale, iptables, ipset, ip-full, jsonfilter, uclient-fetch
 Conflicts: sing-box-router
 Replaces: sing-box-router
 Provides: sing-box-router
 Description: All-in-one DingDong listener, OpenVPN OTP manager, Tailscale guard,
- sing-box split routing, public rule sets and LuCI management page. Uses the
+ dnsmasq/ipset split routing, public rule sets and LuCI management page. Uses the
  separately installed Node.js runtime package.
-Installed-Size: 66136
-Filename: dingdong-listener_2.2.2-73_aarch64_cortex-a53.ipk
-Size: 23659485
-SHA256sum: 29bf74802ffa90e0a3b95a4522ab9941c751405c2e3106f9e0791689594cbeb2
-MD5Sum: a6d3e9a8f4ba495b39efe2cc2220f973
+Installed-Size: 4044
+Filename: dingdong-listener_2.2.2-74_aarch64_cortex-a53.ipk
+Size: 1036819
+SHA256sum: fbeaf0208878c879aab794de0c4f7aa3038f76420fdf7a1908e2824cf8986f7e
+MD5Sum: c601159433968b9638ad4d58accf7ecd
 
 Package: node
 Version: v14.21.3-1
