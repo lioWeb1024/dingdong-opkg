@@ -1,21 +1,5 @@
-Package: device-wan
-Version: 1.0.0-16
-Architecture: all
-Maintainer: DingDong Listener
-Section: net
-Priority: optional
-Depends: luci-base, iptables, ip-full, jsonfilter
-Conflicts: dingdong-wan
-Replaces: dingdong-wan
-Description: 选择哪些局域网设备直接走 WAN。勾选的设备不进入 sing-box，也不进公司 VPN。
-Installed-Size: 48
-Filename: device-wan_1.0.0-16_all.ipk
-Size: 6916
-SHA256sum: 378e2aa9077e58982e8ff576f0710570bd69d15f4792537847040da77bd92ec8
-MD5Sum: 72a4a792a730fec30b23d2122a267ed3
-
 Package: dingdong-listener
-Version: 2.2.2-93
+Version: 2.2.2-94
 Architecture: all
 Maintainer: DingDong Listener
 Section: net
@@ -27,7 +11,7 @@ Provides: sing-box-router, node, dingdong-node-runtime
 Description: All-in-one DingDong listener, OpenVPN OTP manager, Tailscale guard,
  sing-box split routing, bundled Node.js runtime, public rule sets and LuCI page.
 Installed-Size: 96528
-Filename: dingdong-listener_2.2.2-93_all.ipk
-Size: 34743689
-SHA256sum: a67bb1316c7b98d022369b653f91c8ed3d3c1024c6cb9dd642258c3450d30bed
-MD5Sum: dd86e92087e73f34c9ce90a6f6e84058
+Filename: dingdong-listener_2.2.2-94_all.ipk
+Size: 34743286
+SHA256sum: 24a599831c9a4b3feb8e88dcaff67cb8c9f7666818f51a8dcfef63e2522f9ad7
+MD5Sum: 0d9f362e0c89717344eec3094766b07e
