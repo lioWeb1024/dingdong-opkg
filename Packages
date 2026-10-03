@@ -15,37 +15,19 @@ SHA256sum: 8850904727525fdcabe8732f59b3c2e2abb60975bb827067f7537dfa0b171653
 MD5Sum: 896eda8b1b4d8cbabef04356ffee4a51
 
 Package: dingdong-listener
-Version: 2.2.2-92
-Architecture: aarch64_cortex-a53
+Version: 2.2.2-93
+Architecture: all
 Maintainer: DingDong Listener
 Section: net
 Priority: optional
-Depends: node (>= v14.21.3-1), luci-base, openvpn-openssl, openssl-util, tailscale, iptables, iptables-mod-tproxy, kmod-ipt-tproxy, ip-full, jsonfilter, uclient-fetch
-Conflicts: sing-box-router
-Replaces: sing-box-router
-Provides: sing-box-router
+Depends: luci-base, openvpn-openssl, openssl-util, tailscale, iptables, iptables-mod-tproxy, kmod-ipt-tproxy, ip-full, jsonfilter, uclient-fetch
+Conflicts: sing-box-router, node, dingdong-node-runtime
+Replaces: sing-box-router, node, dingdong-node-runtime
+Provides: sing-box-router, node, dingdong-node-runtime
 Description: All-in-one DingDong listener, OpenVPN OTP manager, Tailscale guard,
- sing-box split routing, public rule sets and LuCI management page. Uses the
- separately installed Node.js runtime package.
-Installed-Size: 66300
-Filename: dingdong-listener_2.2.2-92_aarch64_cortex-a53.ipk
-Size: 23712786
-SHA256sum: 932291b8171c085bd9223ea17b0708a03f53fd2fd946844a93fa202f06fb0ebc
-MD5Sum: 959b95efb44167bd2e4cb0adb8ceea14
-
-Package: node
-Version: v14.21.3-1
-Architecture: aarch64_cortex-a53
-Maintainer: DingDong Listener
-Section: lang
-Priority: optional
-Conflicts: dingdong-node-runtime
-Replaces: dingdong-node-runtime
-Provides: dingdong-node-runtime
-Description: Node.js JavaScript runtime for OpenWrt ARM64. This package includes
- the compatible runtime libraries required on supported GL.iNet devices.
-Installed-Size: 30228
-Filename: node_v14.21.3-1_aarch64_cortex-a53.ipk
-Size: 11035650
-SHA256sum: dc00d22a7d59dc7a35312cb897847498d5f9ba29c36b09bcc2d1b7092b4be92f
-MD5Sum: 64af6726b01128423873fa81360b86b7
+ sing-box split routing, bundled Node.js runtime, public rule sets and LuCI page.
+Installed-Size: 96528
+Filename: dingdong-listener_2.2.2-93_all.ipk
+Size: 34743689
+SHA256sum: a67bb1316c7b98d022369b653f91c8ed3d3c1024c6cb9dd642258c3450d30bed
+MD5Sum: dd86e92087e73f34c9ce90a6f6e84058
