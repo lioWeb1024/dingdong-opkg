@@ -15,7 +15,7 @@ SHA256sum: fc61e4980bc601fb27e1e429bab689cf55fdf5ad5a7c6c5d941f981f158c82e6
 MD5Sum: efb232d582b2bd7e86849c48b42417c6
 
 Package: dingdong-listener
-Version: 2.2.2-103
+Version: 2.2.4-1
 Architecture: all
 Maintainer: DingDong Listener
 Section: net
@@ -27,8 +27,8 @@ Provides: sing-box-router, node, dingdong-node-runtime
 Description: All-in-one DingDong listener, OpenVPN OTP manager, Tailscale guard,
  sing-box split routing, bundled Node.js runtime, public rule sets and LuCI page.
 Installed-Size: 96544
-Filename: dingdong-listener_2.2.2-103_all.ipk
-Size: 34746171
-SHA256sum: c418830730e244e8718b5ae22a7f6eddc48a3921f38e043bd19edc4a503237e1
-MD5Sum: 21071983d955122c882fecbfa349aa38
+Filename: dingdong-listener_2.2.4-1_all.ipk
+Size: 34746157
+SHA256sum: 154cd1e54f6fac4c7a8f3d16c56a74198490e711bb7507d368e070612c08b4b4
+MD5Sum: a17a63e3bd6b27bc69bcab0369095bef
 
