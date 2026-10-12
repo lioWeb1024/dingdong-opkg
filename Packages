@@ -15,20 +15,33 @@ SHA256sum: fc61e4980bc601fb27e1e429bab689cf55fdf5ad5a7c6c5d941f981f158c82e6
 MD5Sum: efb232d582b2bd7e86849c48b42417c6
 
 Package: dingdong-listener
-Version: 2.2.4-7
+Version: 2.2.4-8
 Architecture: all
 Maintainer: DingDong Listener
 Section: net
 Priority: optional
-Depends: luci-base, openvpn-openssl, openssl-util, tailscale, iptables, iptables-mod-tproxy, kmod-ipt-tproxy, ip-full, jsonfilter, uclient-fetch
+Depends: luci-base, openvpn-openssl, openssl-util, tailscale, iptables, iptables-mod-tproxy, kmod-ipt-tproxy, ip-full, jsonfilter, uclient-fetch, dingdong-runtime (>= 1.0.0-1)
 Conflicts: sing-box-router, node, dingdong-node-runtime
 Replaces: sing-box-router, node, dingdong-node-runtime
 Provides: sing-box-router, node, dingdong-node-runtime
-Description: All-in-one DingDong listener, OpenVPN OTP manager, Tailscale guard,
- sing-box split routing, bundled Node.js runtime, public rule sets and LuCI page.
-Installed-Size: 96548
-Filename: dingdong-listener_2.2.4-7_all.ipk
-Size: 34742883
-SHA256sum: a1e7ad3e0de04edd0779a6b5eac447b60353025457c47111aa5259f4b3618d33
-MD5Sum: 14a77cf89f498c69d64b60aec0158b40
+Description: DingDong listener, OpenVPN OTP manager, Tailscale guard,
+ sing-box split routing, private runtime dependency, public rule sets and LuCI page.
+Installed-Size: 3192
+Filename: dingdong-listener_2.2.4-8_all.ipk
+Size: 1094496
+SHA256sum: a660c893c408347910b371ed855d0d5a37097994d9bffbc4bcec5b8c021832a1
+MD5Sum: 3eeff8297aa0888eac7745749290ee77
+
+Package: dingdong-runtime
+Version: 1.0.0-1
+Architecture: all
+Maintainer: DingDong Listener
+Section: net
+Priority: optional
+Installed-Size: 93356
+Description: Private ARM64 musl Node.js and sing-box runtime for dingdong-listener.
+Filename: dingdong-runtime_1.0.0-1_all.ipk
+Size: 33656240
+SHA256sum: 32b8dbafb04f252924a278dd6782922ba3c9951958f3a1d02fe1dbdc38db8eb0
+MD5Sum: 5d3a024ec412cf5884b2d6341d0c0f9b
 
