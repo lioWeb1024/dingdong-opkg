@@ -1,3 +1,19 @@
+Package: device-wan
+Version: 1.0.0-17
+Architecture: all
+Maintainer: DingDong Listener
+Section: net
+Priority: optional
+Depends: luci-base, iptables, ip-full, jsonfilter
+Conflicts: dingdong-wan
+Replaces: dingdong-wan
+Description: 选择哪些局域网设备直接走 WAN。勾选的设备不进入 sing-box。
+Installed-Size: 48
+Filename: device-wan_1.0.0-17_all.ipk
+Size: 6892
+SHA256sum: fc61e4980bc601fb27e1e429bab689cf55fdf5ad5a7c6c5d941f981f158c82e6
+MD5Sum: efb232d582b2bd7e86849c48b42417c6
+
 Package: dingdong-listener
 Version: 2.2.4-27
 Architecture: all
